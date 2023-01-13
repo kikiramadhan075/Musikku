@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Musikku</string>
+    <string name="hello">Hello,</string>
+    <string name="john">John</string>
+    <string name="list_music">Alat Musik</string>
+    <string name="input_store">Data Toko</string>
+    <string name="pegawai">Pegawai</string>
+    <string name="pemilik">List Pegawai</string>
+    <string name="reward">Reward</string>
+    <array name="JenisKelamin">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </array>
+</resources>

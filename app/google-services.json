@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "508218062798",
+    "project_id": "musikku-1644b",
+    "storage_bucket": "musikku-1644b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508218062798:android:6a82fb16b08471f9509d9f",
+        "android_client_info": {
+          "package_name": "com.erly.musikku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508218062798-8mq7k7ltv8nh1gn7tav692dbraephlfh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.erly.musikku",
+            "certificate_hash": "96bcd20c037be6cd67702c8d7a760fa8e5bac52d"
+          }
+        },
+        {
+          "client_id": "508218062798-mdrfph4jgomsu13l91l4148uq2nql85v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBATd3wMmWYrPx5O8IratcoWNWrMUNmGIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508218062798-mdrfph4jgomsu13l91l4148uq2nql85v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

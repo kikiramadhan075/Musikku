@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.erly.musikku">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/musiclogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/musiclogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Musikku">
+        <activity
+            android:name=".UpdatePegawai"
+            android:exported="false" />
+        <activity
+            android:name=".ListPegawai"
+            android:exported="false" />
+        <activity
+            android:name=".InputPegawai"
+            android:exported="false" />
+        <activity
+            android:name=".InputOwner"
+            android:exported="false" />
+        <activity
+            android:name=".ListToko"
+            android:exported="false" />
+        <activity
+            android:name=".ListMusik"
+            android:exported="false" />
+        <activity
+            android:name=".ToastActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InputAlat"
+            android:exported="false" />
+        <activity
+            android:name=".InputToko"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9114522306317129~8710666902" />
+
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>

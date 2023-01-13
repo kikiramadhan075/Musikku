@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="8dp"
+    app:cardBackgroundColor="@color/purple_500"
+    android:id="@+id/hasil_pegawai">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!--    Gambar-->
+        <ImageView
+            android:id="@+id/show_gambar"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@mipmap/ic_launcher_round" />
+        <!--        List Data-->
+        <LinearLayout
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <!--           Nomer Identitas-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:text="No. ID :"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/show_noid"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:inputType="textPersonName|textNoSuggestions"
+                    android:maxLength="2000"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+            <!--           Nama-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:text="Nama :"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/show_nama"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:inputType="textPersonName|textNoSuggestions"
+                    android:maxLength="2000"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <!--           Tanggal-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:text="Tanggal Lahir:"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/show_tanggal"
+                    android:textColor="@color/white"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName|textNoSuggestions"
+                    android:maxLength="2000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <!--           JK-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:text="Jenis Kelamin :"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/show_agama"
+                    android:layout_width="150dp"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName|textNoSuggestions"
+                    android:maxLength="2000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <!--           Alamat-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:text="Alamat :"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/show_alamat"
+                    android:textColor="@color/white"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName|textNoSuggestions"
+                    android:maxLength="2000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <!--            &lt;!&ndash;           Casting&ndash;&gt;-->
+            <!--            <LinearLayout-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:orientation="horizontal">-->
+
+            <!--                <TextView-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_gravity="center_vertical"-->
+            <!--                    android:layout_weight="1"-->
+            <!--                    android:text="Casting :"-->
+            <!--                    android:textColor="@color/black"-->
+            <!--                    android:textSize="15sp" />-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/show_casting"-->
+            <!--                    android:layout_width="195dp"-->
+            <!--                    android:textColor="@color/black"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:inputType="textPersonName|textNoSuggestions"-->
+            <!--                    android:maxLength="2000"-->
+            <!--                    android:textSize="16sp" />-->
+            <!--            </LinearLayout>-->
+
+
+            <!--           Golongan Darah-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:text="Gol. Darah:"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/show_goldar"
+                    android:layout_width="150dp"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName|textNoSuggestions"
+                    android:maxLength="2000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <!--            Kewarganegaraan-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:text="Status Negara :"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/show_keadaan"
+                    android:layout_width="150dp"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName|textNoSuggestions"
+                    android:maxLength="2000"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/hapus"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_delete"
+                    android:layout_marginRight="150dp"
+                    android:layout_marginLeft="150dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
